@@ -1,0 +1,328 @@
+@charset "utf-8";
+
+/* HTML and Body styles */
+
+html {
+   background-color: rgb(172, 227, 250);   
+   font-family: 'Fira Sans', sans-serif;
+   height: 100%;
+}
+
+body {
+   background-color: rgb(242, 254, 255); 
+   box-shadow: rgb(9, 82, 107) 10px 0px 15px,
+				rgb(9, 82, 107) -10px 0px 15px;
+   min-height: 100%;   
+   margin: 0px auto;
+   min-width: 400px;
+   max-width: 1024px;   
+   width: 100%; 
+}
+
+/* Body Header styles */
+
+body > header {
+   background: rgb(9, 82, 107);
+}
+
+header img#logoimg {
+   display: block;
+   width: 100%;
+}
+
+/* Navigation list styles */
+
+header nav ul {
+   width: 100%;   
+}
+
+header nav ul li a {
+   color: white;
+   display: block;
+   text-align: left;
+   padding: 8px 15px 8px 30px;   
+}
+
+header nav ul li a:hover {
+   background-color: rgb(11, 12, 145);
+}
+
+a#navicon {
+   display: none;
+}
+
+/* Section Header Styles */
+
+section header {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	position: relative;
+	background: url(landscape.jpg) center / 100% auto no-repeat;	
+}
+
+div#photo {
+	flex: 1 1 180px;
+	background-color: rgba(0, 0, 0, 0.2);
+	margin: 5% auto auto 5%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;	
+}
+
+div#photo img {
+	display: block;
+	width: 60%;		
+	margin-left: auto;
+	margin-right: auto;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+div#message {
+	flex: 1 2 500px;
+	background-color: rgba(0, 0, 0, 0.2);
+	margin: 8% 8%;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 1.8em;		
+}
+
+div#message p {
+	color: rgb(242, 254, 255, 0.8);
+	font-size: 1.2em;
+}
+
+div#message h1 {
+	color: rgb(242, 254, 255, 0.8);
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style: italic;
+	margin: 6% 3%;	
+}
+
+/* Article Styles */
+
+article {
+	max-width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 0px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+article > div {
+	padding: 15px;
+}
+
+div#pageHeading {
+	flex: 1 1 200px;
+}
+
+div#pageContent {
+	flex: 1 1 500px;	
+}
+
+article h2 {
+	color: rgb(9, 82, 107);
+	font-size: 1.8em;
+	line-height: 2em;
+	text-align: left;	
+}
+
+article p {
+   line-height: 1.5;
+   margin-bottom: 15px;
+   clear: both;
+}
+
+/* Intro Article Styles */
+
+article p * {
+	color: rgb(9, 82, 107);
+	font-weight: bold;
+}
+
+article p span {
+	font-size: 1.5em;	
+	vertical-align: baseline;
+}
+
+/* Skills Article Styles */
+
+dt {	
+	font-weight: bold;
+	color: rgb(9, 82, 107);
+	border-bottom: 1px solid rgba(168, 168, 168,1.00);
+}
+
+dd {
+	display: block;
+	margin: 1% 0 3% 3%;
+	text-indent: 0;
+	font-size: 90%;
+}
+
+/* Goals lists styles */
+
+ul.goalsType > li {
+	border: 3px outset grey;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 110%;
+	color: rgb(9, 82, 107);
+	text-align: center;
+	vertical-align: middle;
+	padding: 15px;
+	margin: 0 5% 5% 0;
+}
+
+ul.goals {
+	border-top: 2px dashed grey;
+	font-weight: normal;
+	font-size: 100%;
+	color: black;
+	text-align: left;
+	margin-top:10px;
+	padding-top: 10px;
+	padding-left: 15px;
+	list-style: disc outside;
+}
+
+ul.goals li {
+	padding-bottom: 5px;
+}
+
+/*Resume Styles*/
+
+article h3 {
+	font-size: 1.2em;
+	color:white;
+	width: 102%;	
+	padding: 5px;	
+	margin-bottom: 10px;
+	background-color: rgb(9, 82, 107);
+}
+
+ul.bulletpoints {
+	list-style: url(fast-forward.png) inside;
+	padding-bottom: 10px;
+}
+
+ul.bulletpoints li {
+	margin-bottom: 10px;
+}
+
+div.roles {
+	float: left;
+	width: 50%;
+	font-style: italic;
+	font-weight: bold;	
+}
+
+div.time {
+	float: left;
+	width: 50%;
+	font-style: italic;
+	font-weight: bold;	
+	text-align: right;
+}
+
+/* Footer Styles */
+
+footer {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+footer a {
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	flex: 1 1 auto;
+}
+
+footer, footer * {	
+	background-color: rgb(5, 163, 176);
+	color: white;
+	font-size: 0.9em;  
+	text-decoration: none;
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+/* ===============================
+   Mobile Styles: 0px to 480px 
+   ===============================
+*/
+@media only screen and (max-width: 480px) {
+	
+	a#navicon {
+      display: block;
+   }
+   
+   header nav ul {
+      display: none;
+   }
+   
+   a#navicon:hover+ul, header nav ul:hover {
+      display: block;
+   }  
+
+	div#message p {
+		display: none;
+	}
+	
+	article {
+		max-width: 80%;
+	}
+   
+}
+
+/* =============================================
+   Tablet and Desktop Styles: greater than 480px
+   =============================================
+*/
+
+@media only screen and (min-width: 481px) {
+    
+   header nav ul {	   
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;	  
+      display: flex;
+	  -webkit-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      justify-content: center; 
+   }
+   
+   header nav ul li {
+      flex: 1 1 auto;
+   }
+}
