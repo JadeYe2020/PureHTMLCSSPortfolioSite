@@ -14,4 +14,4 @@ The image section in the middle was the most difficult part for me. It took me a
 ## Outcome 
 I was very satisfied with the end-product, considering how limited my tools were. The instructor was impressed by it and gave some very generous comments.
 
-![image](https://user-images.githubusercontent.com/71286765/180058084-e68f439a-0fff-44ad-bdce-ba9f28264fcb.png)
+![image](https://user-images.githubusercontent.com/71286765/180062249-05642814-5247-429b-8da6-ea9e3d2a9a1c.png)
