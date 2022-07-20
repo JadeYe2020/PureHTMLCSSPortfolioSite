@@ -63,7 +63,7 @@ section header {
 	flex-flow: row nowrap;
 	justify-content: space-around;
 	position: relative;
-	background: url(landscape.jpg) center / 100% auto no-repeat;	
+	background: url(../assets/landscape.jpg) center / 100% auto no-repeat;	
 }
 
 div#photo {
@@ -223,7 +223,7 @@ article h3 {
 }
 
 ul.bulletpoints {
-	list-style: url(fast-forward.png) inside;
+	list-style: url(../assets/fast-forward.png) inside;
 	padding-bottom: 10px;
 }
 
